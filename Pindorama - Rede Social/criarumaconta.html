@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+	<title> Pindorama </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="stylecriarumaconta.css">
+	<link rel="icon" type="image/x-icon" href="logo/logopindorama.ico">
+	<script src="password-hide-show-criarumaconta.js"> </script>
+</head>
+<body>
+	<div class="main-login">
+		<div class="left-login">
+			<h1> <center> Bem vindo à Pindorama! </center> </h1>
+			<h2> <center> A rede social de origem brasileira </center> </h2>
+			<img src="animacao/animacaopindorama.svg" class="left-login-image" alt="Pindorama Animação">
+			</div>
+		<div class="right-login">
+			<div class="card-login">
+				<h2> <center> CRIAR UMA CONTA </center> </h2>
+				<br>
+				<h4> <center> Preencha todos os campos para criar sua conta </center> </h4>
+				<br>				
+				 <form method="POST" action="form.php">
+				<div class="textfield">
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" placeholder="Nome" required>			
+				</div>
+				<div class="textfield">
+					<label for="sobrenome">Sobrenome</label>
+					<input type="text" name="sobrenome" placeholder="Sobrenome" required>			
+				</div>
+				
+				<div class="textfield">
+					<label for="e-mail">E-mail</label>
+					<input type="text" name="e-mail" placeholder="E-mail" required>			
+				</div>
+				<div class="textfield">
+					<label for="senha">Criar senha</label>
+					<input type="password" name="senha" placeholder="Criar senha" id="password1" required>	
+					<img src="imagem/password-hide.png" onclick="pass()" class="pass-icon1" id="pass-icon1">
+				</div>
+				<div class="textfield">
+					<label for="confirmar senha">Confirmar senha</label>
+					<input type="password" name="confirmar senha" placeholder="Confirmar senha" id="password2" required>
+					<img src="imagem/password-hide.png" onclick="pass()" class="pass-icon2" id="pass-icon2">
+				</div>
+			<br>
+				<button class="btn-criarconta">Criar conta</button>
+			<br> <br>
+			</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

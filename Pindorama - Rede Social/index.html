@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+	<title> Pindorama </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="styleindex.css">
+	<link rel="icon" type="image/x-icon" href="logo/logopindorama.ico">
+	<script src="password-hide-show-index.js"> </script>
+</head>
+<body>
+	<div class="main-login">
+		<div class="left-login">
+			<h1> <center> Bem vindo à Pindorama! </center> </h1>
+			<h2> <center> A rede social de origem brasileira </center> </h2>
+			<img src="animacao/animacaopindorama.svg" class="left-login-image" alt="Pindorama Animação">
+			</div>
+		<div class="right-login">
+			<div class="card-login">
+				<h2> <center> LOGIN </center> </h2> 
+				<br>
+				<h4> <center> Preencha os campos para entrar </center> </h4>
+				<br>
+				 <form method="POST" action="form.php">
+			<div class="textfield">
+				<label for="e-mail">E-mail</label>
+				<input type="text" name="e-mail" placeholder="E-mail" required>			
+			</div>
+			<div class="textfield">
+				<label for="senha">Senha</label>
+				<input type="password" name="senha" placeholder="Senha" id="password" required>
+				<img src="imagem/password-hide.png" onclick="pass()" class="pass-icon" id="pass-icon">
+			</div>
+			<br>
+				<button class="btn-login">Entrar</button>
+			<br> <br>
+				<a href="esqueciminhasenha.html">Esqueci minha senha</a>
+				<a href="criarumaconta.html">Criar uma conta</a>
+			</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
