@@ -1,2 +1,2 @@
 # Web-Development
-Projetos de desenvolvimento - websites
+Projetos de desenvolvimento de websites
