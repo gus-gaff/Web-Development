@@ -1,2 +1,2 @@
 # Web-Development
-Projetos de desenvolvimento - websites, redes sociais, entre outros
+Projetos de desenvolvimento - websites
